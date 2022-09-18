@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.menu img {
+  width: 50px;
+}
+.menu .botonMenu {
+  width: 50px;
+}
+.menu .botonMenu span {
+  margin: 0px auto;
+}
+.menu a {
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
