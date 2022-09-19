@@ -1,15 +1,113 @@
-.menu{
-   
-    img{
+.menu {
+
+    img {
         width: 50px;
     }
-    .botonMenu{
+
+    .botonMenu {
         width: 50px;
-        span{
+
+        span {
             margin: 0px auto;
         }
     }
-    a{
+
+    a {
         font-size: 12px;
+    }
+}
+
+.slide {
+    h5 {
+        font-size: 12px;
+        padding-top: 8px;
+    }
+
+    .botonc {
+        button {
+            @include estiloboton;
+        }
+    }
+}
+
+.videoinscripcion {
+    @extend %estiloPrincipal;
+
+    iframe {
+        width: 85vw;
+        height: auto;
+    }
+
+    h2 {
+        @include estilotitulo;
+        color: $blanco;
+    }
+
+    p {
+        @include estilotexto;
+    }
+
+    button {
+        @include estiloboton;
+    }
+
+}
+
+.musichelp {
+    background-image: url('https://www.infobae.com/new-resizer/C8W0BwKD9_TCvwiTNdTrcDRy_WE=/768x432/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/01/16161842/Cabify-Latam-4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+    .textomh {
+        background-color:  rgba(0, 0, 0, 0.329);
+        h2 {
+            @include estilotitulo;
+            color: $blanco;
+        }
+
+        p {
+            @include estilotexto;
+            color: $blanco;
+        }
+    }
+
+    img {
+        width: 85vw;
+        height: auto;
+        margin-top: 10px;
+
+    }
+    
+
+
+}
+.pagoElectronico{
+    @extend %estiloPrincipal;
+    h2{
+        @include estilotitulo;
+        color: $blanco;
+    }
+    button{
+        @include estiloboton;
+    }
+    img{
+       width: 30px;
+       height: auto;
+        overflow: hidden;
+    }
+}
+.footer{
+    background-color: $negro;
+    text-align: center;
+    p{
+       font-size: 8px;
+        color: $blanco;
+        
+    }
+    img{
+        width: 30px;
+        height: auto;
     }
 }

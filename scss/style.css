@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.pagoElectronico, .videoinscripcion {
+  background-color: #9474fc;
+  text-align: center;
+  margin-top: 10px;
+}
+
 .menu img {
   width: 50px;
 }
@@ -15,4 +21,111 @@
 }
 .menu a {
   font-size: 12px;
+}
+
+.slide h5 {
+  font-size: 12px;
+  padding-top: 8px;
+}
+.slide .botonc button {
+  font-size: 8px;
+  background-color: transparent;
+  border: 0.3px #fb6445 solid;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+.slide .botonc button a {
+  text-decoration: none;
+  color: white;
+  color: white;
+}
+
+.videoinscripcion iframe {
+  width: 85vw;
+  height: auto;
+}
+.videoinscripcion h2 {
+  font-size: 12px;
+  padding-top: 10px;
+  color: white;
+}
+.videoinscripcion p {
+  font-size: 8px;
+  padding: 20px;
+  text-align: justify;
+}
+.videoinscripcion button {
+  font-size: 8px;
+  background-color: transparent;
+  border: 0.3px #fb6445 solid;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+.videoinscripcion button a {
+  text-decoration: none;
+  color: white;
+  color: white;
+}
+
+.musichelp {
+  background-image: url("https://www.infobae.com/new-resizer/C8W0BwKD9_TCvwiTNdTrcDRy_WE=/768x432/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/01/16161842/Cabify-Latam-4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+.musichelp .textomh {
+  background-color: rgba(0, 0, 0, 0.329);
+}
+.musichelp .textomh h2 {
+  font-size: 12px;
+  padding-top: 10px;
+  color: white;
+}
+.musichelp .textomh p {
+  font-size: 8px;
+  padding: 20px;
+  text-align: justify;
+  color: white;
+}
+.musichelp img {
+  width: 85vw;
+  height: auto;
+  margin-top: 10px;
+}
+
+.pagoElectronico h2 {
+  font-size: 12px;
+  padding-top: 10px;
+  color: white;
+}
+.pagoElectronico button {
+  font-size: 8px;
+  background-color: transparent;
+  border: 0.3px #fb6445 solid;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+.pagoElectronico button a {
+  text-decoration: none;
+  color: white;
+  color: white;
+}
+.pagoElectronico img {
+  width: 30px;
+  height: auto;
+  overflow: hidden;
+}
+
+.footer {
+  background-color: #000000;
+  text-align: center;
+}
+.footer p {
+  font-size: 8px;
+  color: white;
+}
+.footer img {
+  width: 30px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

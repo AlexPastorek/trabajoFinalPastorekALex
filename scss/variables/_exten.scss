@@ -1,0 +1,31 @@
+%estiloPrincipal{
+    background-color: $morado;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+//mixin
+
+@mixin estilotitulo{
+    font-size: 12px; 
+    padding-top: 10px;  
+}
+
+@mixin estilotexto{
+    font-size: 8px; 
+    padding: 20px;
+    text-align: justify;  
+}
+
+@mixin estiloboton{
+    font-size: 8px;
+    background-color: transparent;
+    border: .3px $naranja solid;
+    padding: 4px;
+    margin-bottom: 10px; 
+    a{
+    text-decoration: none; 
+    color: $blanco ;
+    color: $blanco ;}
+}
