@@ -1,0 +1,40 @@
+.videoi{
+    iframe{
+        width: 90vw;
+        height: auto;
+        margin-top:10px ;
+    }
+}
+.inscr{
+    background-color: $morado;
+    .tituloi{
+        @include estilotitulo;
+        background-color: $verde;
+        font-weight: 600;
+    }
+    .inscripcionest{
+        img{
+            width: 90vw;
+            height: auto;
+            margin-top: 10px;
+        }
+        h2{
+            @include estilotitulo;
+            color: $blanco;
+        }
+        p{
+            @include estilotexto;
+            color: $blanco;
+        }
+        button{
+            @include estiloboton;
+            color: $blanco;
+            font-size: 10px;
+        }
+        .entrevista{
+            padding: 0px 20px 24px 25px;
+            
+
+        }
+    }
+}

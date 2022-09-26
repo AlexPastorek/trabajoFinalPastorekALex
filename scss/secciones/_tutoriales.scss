@@ -1,0 +1,62 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "video1 video1"
+        "video2 video2"
+        "video3 video3"
+        "video4 video4";
+        justify-items: center;
+}
+h2{
+    @include estilotitulo;
+    background-color: $naranja;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 3px;
+    
+}
+.video1 {
+    grid-area: video1;
+
+    iframe {
+        width: 90vw;
+        height: auto;
+    }
+
+}
+
+.video2 {
+    grid-area: video2;
+    iframe {
+        width: 90vw;
+        height: auto;
+    }
+}
+
+.video3 {
+    grid-area: video3;
+    iframe {
+        width: 90vw;
+        height: auto;
+    }
+
+}
+
+.video4 {
+    grid-area: video4;
+    iframe {
+        width: 90vw;
+        height: auto;
+    }
+
+
+}
+
+.videot {
+    width: 90vw;
+    height: auto;
+}

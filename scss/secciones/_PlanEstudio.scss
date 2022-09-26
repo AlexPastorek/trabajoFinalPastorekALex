@@ -1,0 +1,71 @@
+.plan_estudio {
+    background-image: url('http://www.todohumor.com/UserFiles/Image/fondos/2011/abril/notas-musicales1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 15px;
+
+    .plan {
+        justify-content: space-around;
+
+        .tabla {
+            padding: 0px;
+
+            p {
+                background-color: $naranja;
+                @include estilotitulo;
+                margin-top: 10px;
+            }
+        }
+
+        .tabla_fila {
+            padding: 0px;
+
+            .tabla {
+                @include estilotitulo;
+                background-color: $naranja;
+                border: $blanco .7px solid;
+            }
+
+            .fila {
+                font-size: 8px;
+                background-color: $morado;
+                border: $blanco .5px solid;
+            }
+        }
+
+    }
+
+    .teens {
+        justify-content: space-around;
+
+        .tabla {
+            padding: 0px;
+
+            p {
+                background-color: $naranja;
+                @include estilotitulo;
+                margin-top: 10px;
+            }
+        }
+
+        .tabla_fila {
+            padding: 0px;
+            
+
+            .tabla {
+                @include estilotitulo;
+                background-color: $naranja;
+                border: $blanco .7px solid;
+            }
+
+            .fila {
+                font-size: 8px;
+                background-color: $morado;
+                border: $blanco .5px solid;
+                
+            }
+        }
+    }
+}
