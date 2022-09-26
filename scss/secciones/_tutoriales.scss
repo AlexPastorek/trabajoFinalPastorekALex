@@ -11,14 +11,9 @@
         "video4 video4";
         justify-items: center;
 }
-h2{
-    @include estilotitulo;
-    background-color: $naranja;
-    border-radius: 5px;
-    margin-top: 3px;
-    padding: 3px;
-    
-}
+
+
+
 .video1 {
     grid-area: video1;
 
@@ -59,4 +54,13 @@ h2{
 .videot {
     width: 90vw;
     height: auto;
+
+    h2{
+        @include estilotitulo;
+        background-color: $naranja;
+        border-radius: 5px;
+        margin-top: 3px;
+        padding: 3px;
+        
+    }
 }

@@ -250,15 +250,6 @@
   justify-items: center;
 }
 
-h2 {
-  font-size: 12px;
-  padding-top: 10px;
-  background-color: #fb6445;
-  border-radius: 5px;
-  margin-top: 3px;
-  padding: 3px;
-}
-
 .video1 {
   grid-area: video1;
 }
@@ -294,4 +285,84 @@ h2 {
 .videot {
   width: 90vw;
   height: auto;
+}
+.videot h2 {
+  font-size: 12px;
+  padding-top: 10px;
+  background-color: #fb6445;
+  border-radius: 5px;
+  margin-top: 3px;
+  padding: 3px;
+}
+
+.titulof h1 {
+  font-size: 12px;
+  padding-top: 10px;
+  border-radius: 5px;
+  background-color: #fb6445;
+  padding: 5px;
+  margin-top: 10px;
+}
+.titulof iframe {
+  width: 90vw;
+  height: 50vh;
+}
+.titulof h2 {
+  font-size: 12px;
+  padding-top: 10px;
+  border-radius: 5px;
+  background-color: #fb6445;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.formulario {
+  background-color: #9474fc;
+  padding: 15px;
+  border-radius: 10px;
+}
+.formulario input {
+  font-size: 8px;
+  padding: 20px;
+  text-align: justify;
+  padding: 8px;
+  width: 90vw;
+}
+.formulario .texto {
+  width: 90vw;
+  height: 18vh;
+  font-size: 8px;
+  padding: 20px;
+  text-align: justify;
+}
+.formulario h5 {
+  font-size: 12px;
+  padding-top: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 68, 0, 0.527);
+  padding: 5px;
+  margin-top: 10px;
+}
+.formulario select {
+  font-size: 12px;
+  padding-top: 10px;
+  padding: 3px 5px 3px 5px;
+}
+.formulario .botonese input {
+  width: 20vw;
+  font-size: 8px;
+  background-color: transparent;
+  border: 0.3px #fb6445 solid;
+  padding: 4px;
+  margin-bottom: 10px;
+  height: auto;
+  padding: 5px;
+}
+.formulario .botonese input a {
+  text-decoration: none;
+  color: white;
+  color: white;
+}
+.formulario label {
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */

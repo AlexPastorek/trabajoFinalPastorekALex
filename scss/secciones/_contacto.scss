@@ -1,0 +1,61 @@
+
+.titulof{
+    h1{
+        @include estilotitulo;
+        border-radius: 5px;
+        background-color: $naranja;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    iframe{
+        width: 90vw;
+        height: 50vh;
+    }
+    h2{
+        @include estilotitulo;
+        border-radius: 5px;
+        background-color: $naranja;
+        padding: 5px;
+        margin-top: 10px; 
+    }
+}
+
+.formulario{
+    background-color: $morado;
+    padding: 15px;
+    border-radius: 10px;
+
+    input{
+        @include estilotexto;
+        padding: 8px;
+        width: 90vw;
+    }
+    .texto{
+        width: 90vw;
+        height: 18vh;
+        @include estilotexto;
+    }
+    h5{
+        @include estilotitulo;
+        border-radius: 5px;
+        background-color: rgba(255, 68, 0, 0.527);
+        padding: 5px;
+        margin-top: 10px; 
+    }
+    select{
+        @include estilotitulo;
+        padding: 3px 5px 3px 5px;
+    }
+    .botonese{
+        
+        input{
+            width: 20vw;
+            @include estiloboton;
+            height: auto;
+            padding: 5px;
+        }
+    }
+    label{
+       font-size: 12px;
+    }
+}

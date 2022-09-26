@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instituto Canzion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg " style="background-color: #9474fc">
+        <div class="container-fluid menu">
+            <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo Canzion - Negro.png" alt="logo"></a>
+            <button class="navbar-toggler botonMenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./planEstudio.html">Plan Estudio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./inscripciones.html">inscripciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./tutoriales.html">tutoriales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- fin header -->
+
+    <!-- flyaer -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../imagenes/Portadafacebook.jpg" class="d-block w-100" alt="flayer1">
+                <div class="carousel-caption botonc">
+                    <h5>INSCRIPCIPNES <br>MARZO 2023 </h5>
+
+                    <button> <a href="./inscripciones.html"> INSCRÍBETE AQUÍ</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/flayer2.png" class="d-block w-100" alt="flayer2">
+
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- fin flayer -->
+
+    <div class="titulof">
+        <h1 class="text-center">Contacto</h1>
+        <div class="mapa text-center">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1606.9565717987823!2d-64.19798084830607!3d-31.41351119870254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329880440443e7%3A0x26a9183ac3ec1fa2!2s27%20de%20Abril%20941%2C%20X5000AES%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1658784478893!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h2 class="text-center">Formulario de Contacto</h2>
+    </div>
+    <!-- formulario -->
+    <section class="formulario text-center">
+
+        <form class="form" action="#" method="get">
+            <input class="name" type="text" placeholder="Nombre y Apellido" name="nombre">
+            <br><br>
+            <input class="mail" type="Email" placeholder="E-Mail" name="eMail">
+            <br><br>
+            <textarea class="texto" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <br>
+            <h5>Modalidad a consultar</h5>
+            <div class="selecModalidad">
+                <label for="modalidad"> + 16 Años</label>
+                <input type="radio" name="modalidad" value="cursoMinisterial">
+                <label for="modalidad">Ente 11 años y 15 años</label>
+                <input type="radio" name="modalidad" value="Teens">
+            </div>
+            <br>
+            <div class="selecinstrumnto">
+                <h5>Instrumento</h5>
+                <select name="eleccion" id="">
+                    <option value="">Elegi tu instrumento</option>
+                    <option value="piano">Piano</option>
+                    <option value="guitarra">Gitarra</option>
+                    <option value="bajo">Bajo</option>
+                    <option value="Bateria">Bateria</option>
+                    <option value="canto">Canto</option>
+                </select>
+            </div>
+            <br>
+            <!-- aceta condiciones -->
+            <div class="condiciones">
+                <label for="">Acepta los terminos y condiciones</label>
+                <input type="checkbox" name="Acepta" value="si">
+            </div>
+            <br>
+            <div class="botonese ">
+                <!-- Envia -->
+                <input class="text-center" type="submit" value="Enviar">
+                <!-- borra datos -->
+                <input class="text-center" type="reset" value="Borrar">
+            </div>
+        </form>
+
+    </section>
+
+    <!-- fin formuario -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <p class="text-center">E- Mail: cordoba@institutocanzion.com // Dirección: 27 de abril 935
+            (córdoba-Argentina) // Teléfono: 0351-158002956</p>
+        <div class="redessociales">
+            <img src="../imagenes/logo face.png" alt="">
+            <img src="../imagenes/Logo instagram.png" alt="">
+            <img src="../imagenes/youtube-logo-5-2.png" alt="">
+        </div>
+
+    </footer>
+
+    <!-- fin footer -->
+
+    <!-- /////////////////////// -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
