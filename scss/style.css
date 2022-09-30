@@ -130,6 +130,11 @@
   height: auto;
 }
 
+@media (min-width: 768px) {
+  .slide h5 {
+    font-size: 40px;
+  }
+}
 .plan_estudio {
   background-image: url("http://www.todohumor.com/UserFiles/Image/fondos/2011/abril/notas-musicales1.jpg");
   background-repeat: no-repeat;
@@ -365,4 +370,353 @@
 }
 .formulario label {
   font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .menu a {
+    font-size: 14px;
+  }
+  .slide h5 {
+    font-size: 18px;
+  }
+  .slide .botonc button {
+    font-size: 14px;
+  }
+  .videoinscripcion iframe {
+    width: 85vw;
+    height: 60vh;
+  }
+  .videoinscripcion h2 {
+    font-size: 18px;
+  }
+  .videoinscripcion p {
+    font-size: 14px;
+  }
+  .videoinscripcion button {
+    font-size: 14px;
+  }
+  .musichelp .textomh h2 {
+    font-size: 18px;
+  }
+  .musichelp .textomh p {
+    font-size: 14px;
+  }
+  .musichelp img {
+    width: 50vw;
+    height: auto;
+  }
+  .pagoElectronico h2 {
+    font-size: 18px;
+  }
+  .pagoElectronico button {
+    font-size: 14px;
+  }
+  .pagoElectronico img {
+    width: 40px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+  .footer img {
+    width: 40px;
+  }
+  .plan_estudio .plan .tabla p {
+    font-size: 14px;
+  }
+  .plan_estudio .plan .tabla_fila .tabla {
+    font-size: 14px;
+  }
+  .plan_estudio .plan .tabla_fila .fila {
+    font-size: 14px;
+  }
+  .plan_estudio .teens .tabla p {
+    font-size: 14px;
+  }
+  .plan_estudio .teens .tabla_fila .tabla {
+    font-size: 14px;
+  }
+  .plan_estudio .teens .tabla_fila .fila {
+    font-size: 14px;
+  }
+  .videoi iframe {
+    width: 90vw;
+    height: 65vh;
+  }
+  .inscr .tituloi {
+    font-size: 18px;
+  }
+  .inscr .inscripcionest img {
+    width: 50vw;
+    height: auto;
+  }
+  .inscr .inscripcionest h2 {
+    font-size: 18px;
+  }
+  .inscr .inscripcionest p {
+    font-size: 14px;
+  }
+  .inscr .inscripcionest button {
+    font-size: 14px;
+  }
+  .inscr .inscripcionest .entrevista {
+    padding: 0px 25px 10px 25px;
+  }
+  .video1 iframe {
+    width: 90vw;
+    height: 60vh;
+  }
+  .video2 iframe {
+    width: 90vw;
+    height: 60vh;
+  }
+  .video3 iframe {
+    width: 90vw;
+    height: 60vh;
+  }
+  .video4 {
+    grid-area: video4;
+  }
+  .video4 iframe {
+    width: 90vw;
+    height: 60vh;
+  }
+  .videot h2 {
+    font-size: 18px;
+  }
+  .titulof h1 {
+    font-size: 18px;
+  }
+  .titulof iframe {
+    width: 90vw;
+    height: 60vh;
+  }
+  .titulof h2 {
+    font-size: 18px;
+  }
+  .formulario input {
+    font-size: 14px;
+  }
+  .formulario .texto {
+    font-size: 14PX;
+  }
+  .formulario h5 {
+    font-size: 18px;
+  }
+  .formulario select {
+    font-size: 14px;
+  }
+  .formulario .botonese input {
+    font-size: 14px;
+  }
+  .formulario label {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .menu img {
+    width: 80px;
+  }
+  .menu a {
+    font-size: 20px;
+  }
+  .slide h5 {
+    font-size: 50px;
+  }
+  .slide .botonc button {
+    font-size: 24px;
+  }
+  .videoinscripcion iframe {
+    height: 80vh;
+  }
+  .videoinscripcion h2 {
+    font-size: 24px;
+  }
+  .videoinscripcion p {
+    font-size: 20px;
+  }
+  .videoinscripcion button {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .musichelp {
+    margin: 0px;
+    max-width: 100vw;
+  }
+  .musichelp .textomh {
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .musichelp .textomh h2 {
+    font-size: 24px;
+  }
+  .musichelp .textomh p {
+    font-size: 20px;
+  }
+  .musichelp img {
+    width: 22vw;
+    height: auto;
+  }
+  .pagoElectronico {
+    padding-bottom: 10px;
+  }
+  .pagoElectronico h2 {
+    font-size: 24px;
+  }
+  .pagoElectronico button {
+    font-size: 20px;
+    padding: 1px 8px 1px 8px;
+  }
+  .pagoElectronico img {
+    width: 70px;
+  }
+  .footer {
+    padding: 10px;
+  }
+  .footer p {
+    font-size: 20px;
+  }
+  .footer img {
+    width: 50px;
+  }
+  .plan_estudio .plan .tabla p {
+    font-size: 20px;
+  }
+  .plan_estudio .plan .tabla_fila .tabla {
+    font-size: 20px;
+  }
+  .plan_estudio .plan .tabla_fila .fila {
+    font-size: 20px;
+  }
+  .plan_estudio .teens .tabla p {
+    font-size: 20px;
+  }
+  .plan_estudio .teens .tabla_fila .tabla {
+    font-size: 20px;
+  }
+  .plan_estudio .teens .tabla_fila .fila {
+    font-size: 20px;
+  }
+  .videoi iframe {
+    width: 90vw;
+    height: 80vh;
+  }
+  .inscr {
+    max-width: 100vw;
+  }
+  .inscr .tituloi {
+    font-size: 24px;
+  }
+  .inscr .inscripcionest img {
+    width: 30vw;
+    height: auto;
+  }
+  .inscr .inscripcionest h2 {
+    font-size: 24px;
+  }
+  .inscr .inscripcionest p {
+    font-size: 20px;
+  }
+  .inscr .inscripcionest button {
+    font-size: 20px;
+    padding: 0px 15px;
+    margin-top: 8px;
+  }
+  .inscr .inscripcionest .entrevista {
+    padding: 0px 45px 30px 45px;
+  }
+  .inscr .inscripcionest .botoness {
+    justify-content: space-between;
+  }
+  .grid-container {
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 50vh 50vh;
+    grid-template-areas: "video1 video2" "video3 video4";
+  }
+  .video1 {
+    grid-area: video1;
+  }
+  .video1 iframe {
+    width: 38vw;
+    height: 40vh;
+  }
+  .video2 {
+    grid-area: video2;
+  }
+  .video2 iframe {
+    width: 38vw;
+    height: 40vh;
+  }
+  .video3 {
+    grid-area: video3;
+  }
+  .video3 iframe {
+    width: 38vw;
+    height: 40vh;
+  }
+  .video4 {
+    grid-area: video4;
+  }
+  .video4 iframe {
+    width: 38vw;
+    height: 40vh;
+  }
+  .videot {
+    width: 50vw;
+    height: auto;
+    padding: 10px;
+  }
+  .videot h2 {
+    font-size: 24px;
+  }
+  .titulof h1 {
+    font-size: 24px;
+    margin: 20px;
+  }
+  .titulof iframe {
+    width: 90vw;
+    height: 80vh;
+  }
+  .titulof h2 {
+    font-size: 24px;
+    margin: auto;
+    width: 70vw;
+    margin-top: 10px;
+  }
+  .formulario {
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .formulario input {
+    font-size: 20px;
+    width: 50vw;
+  }
+  .formulario .texto {
+    width: 50vw;
+    height: 18vh;
+    font-size: 20px;
+  }
+  .formulario h5 {
+    font-size: 24px;
+  }
+  .formulario select {
+    font-size: 20px;
+    padding: 3px 5px 3px 5px;
+  }
+  .formulario .botonese input {
+    width: 20vw;
+    font-size: 20px;
+    height: auto;
+    padding: 5px;
+  }
+  .formulario .selecModalidad label {
+    font-size: 20px;
+    padding: 0px;
+  }
+  .formulario .selecModalidad input {
+    width: 2vw;
+  }
+  .formulario .condiciones input {
+    width: 2vw;
+  }
 }/*# sourceMappingURL=style.css.map */
