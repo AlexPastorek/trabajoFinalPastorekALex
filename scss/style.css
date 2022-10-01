@@ -12,6 +12,12 @@
 
 .menu img {
   width: 50px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: logo;
+          animation-name: logo;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
 }
 .menu .botonMenu {
   width: 50px;
@@ -154,6 +160,12 @@
   font-size: 12px;
   padding-top: 10px;
   margin-top: 10px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: logo;
+          animation-name: logo;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
 }
 .plan_estudio .plan .tabla_fila {
   padding: 0px;
@@ -180,6 +192,12 @@
   font-size: 12px;
   padding-top: 10px;
   margin-top: 10px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: logo;
+          animation-name: logo;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
 }
 .plan_estudio .teens .tabla_fila {
   padding: 0px;
@@ -300,6 +318,10 @@
   padding: 3px;
 }
 
+.videol {
+  margin-bottom: 20px;
+}
+
 .titulof h1 {
   font-size: 12px;
   padding-top: 10px;
@@ -368,10 +390,37 @@
   color: white;
   color: white;
 }
+.formulario .botonese input:hover {
+  background-color: #fb6445;
+  color: white;
+}
 .formulario label {
   font-size: 12px;
 }
 
+@-webkit-keyframes logo {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale 1;
+  }
+}
 @media (min-width: 768px) {
   .menu a {
     font-size: 14px;
@@ -395,6 +444,12 @@
   .videoinscripcion button {
     font-size: 14px;
   }
+  .videoinscripcion button:hover {
+    background-color: blue;
+    border-radius: 6px;
+    width: 200px;
+    height: 60px;
+  }
   .musichelp .textomh h2 {
     font-size: 18px;
   }
@@ -403,6 +458,10 @@
   }
   .musichelp img {
     width: 50vw;
+    height: auto;
+  }
+  .musichelp img:hover {
+    width: 70%;
     height: auto;
   }
   .pagoElectronico h2 {
@@ -414,11 +473,17 @@
   .pagoElectronico img {
     width: 40px;
   }
+  .pagoElectronico img:hover {
+    width: 90px;
+  }
   .footer p {
     font-size: 14px;
   }
   .footer img {
     width: 40px;
+  }
+  .footer img:hover {
+    width: 3%;
   }
   .plan_estudio .plan .tabla p {
     font-size: 14px;
@@ -465,13 +530,25 @@
     width: 90vw;
     height: 60vh;
   }
+  .video1:hover iframe {
+    width: 101%;
+    height: 44vh;
+  }
   .video2 iframe {
     width: 90vw;
     height: 60vh;
   }
+  .video2:hover iframe {
+    width: 101%;
+    height: 44vh;
+  }
   .video3 iframe {
     width: 90vw;
     height: 60vh;
+  }
+  .video3:hover iframe {
+    width: 101%;
+    height: 44vh;
   }
   .video4 {
     grid-area: video4;
@@ -479,6 +556,10 @@
   .video4 iframe {
     width: 90vw;
     height: 60vh;
+  }
+  .video4:hover iframe {
+    width: 101%;
+    height: 44vh;
   }
   .videot h2 {
     font-size: 18px;
@@ -617,12 +698,10 @@
     font-size: 20px;
   }
   .inscr .inscripcionest button {
-    font-size: 20px;
-    padding: 0px 15px;
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
     margin-top: 8px;
-  }
-  .inscr .inscripcionest .entrevista {
-    padding: 0px 45px 30px 45px;
   }
   .inscr .inscripcionest .botoness {
     justify-content: space-between;
@@ -661,7 +740,7 @@
     height: 40vh;
   }
   .videot {
-    width: 50vw;
+    width: 45vw;
     height: auto;
     padding: 10px;
   }

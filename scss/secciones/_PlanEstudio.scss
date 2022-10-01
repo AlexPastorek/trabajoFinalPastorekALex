@@ -16,11 +16,15 @@
                 background-color: $naranja;
                 @include estilotitulo;
                 margin-top: 10px;
+                animation-duration: 3s;
+                animation-name: logo;
+                animation-iteration-count: initial;
             }
         }
 
         .tabla_fila {
             padding: 0px;
+        
 
             .tabla {
                 @include estilotitulo;
@@ -47,6 +51,9 @@
                 background-color: $naranja;
                 @include estilotitulo;
                 margin-top: 10px;
+                animation-duration: 3s;
+                animation-name: logo;
+                animation-iteration-count: initial;
             }
         }
 

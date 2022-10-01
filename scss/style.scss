@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 @import'./variables/colores';
 @import'./variables/exten';
 @import'./secciones/inicio';
@@ -11,6 +13,32 @@
 @import'./secciones/incripciones';
 @import'./secciones/tutoriales';
 @import'./secciones/contacto';
+
+
+//animaciones// 
+
+@keyframes logo {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale (1);
+    }
+}
+
+
+
+
+
+
+
+
+
 
 // Tablet
 
@@ -50,13 +78,19 @@
         h2 {
             font-size: 18px;
         }
-
+        
         p {
             font-size: 14px;
         }
 
         button {
             font-size: 14px;
+        }
+        button:hover{
+            background-color: blue;
+            border-radius: 6px;
+            width: 200px;
+            height: 60px;
         }
 
     }
@@ -80,7 +114,10 @@
 
 
         }
-
+        img:hover{
+            width: 70%;
+            height: auto;
+        }
     }
 
     .pagoElectronico {
@@ -97,6 +134,9 @@
             width: 40px;
 
         }
+        img:hover{
+            width: 90px;
+        }
     }
 
     .footer {
@@ -110,6 +150,9 @@
         img {
             width: 40px;
 
+        }
+        img:hover{
+            width: 3%;
         }
     }
 
@@ -219,8 +262,15 @@
             width: 90vw;
             height: 60vh;
         }
-
+        
     }
+    .video1:hover{
+       iframe{
+        width: 101%;
+        height: 44vh;
+       
+    }}
+    
 
     .video2 {
 
@@ -229,6 +279,11 @@
             height: 60vh;
         }
     }
+    .video2:hover{
+        iframe{
+            width: 101%;
+            height: 44vh;
+    }}
 
     .video3 {
 
@@ -238,6 +293,12 @@
         }
 
     }
+    .video3:hover{
+        iframe{
+            width: 101%;
+            height: 44vh;
+    }}
+
 
     .video4 {
         grid-area: video4;
@@ -249,6 +310,12 @@
 
 
     }
+    .video4:hover{
+        iframe{
+            width: 101%;
+            height: 44vh;
+    }}
+
 
     .videot {
 
@@ -510,17 +577,15 @@
 
 
             button {
-                font-size: 20px;
-                padding: 0px 15px;
+                font-size: 18px;
+                width: 200px;
+                height: 60px;
                 margin-top: 8px;
             }
-
-            .entrevista {
-                padding: 0px 45px 30px 45px;
+           
 
 
-            }
-
+           
             .botoness {
 
                 justify-content: space-between
@@ -586,7 +651,7 @@
 
     .videot {
 
-        width: 50vw;
+        width: 45vw;
         height: auto;
         padding: 10px;
 

@@ -1,7 +1,12 @@
 .menu {
-
+    
+    
+    
     img {
         width: 50px;
+        animation-duration: 3s;
+        animation-name: logo;
+        animation-iteration-count: initial;
     }
 
     .botonMenu {

@@ -54,6 +54,10 @@
             height: auto;
             padding: 5px;
         }
+        input:hover{
+            background-color: $naranja;
+            color: $blanco;
+        }
     }
     label{
        font-size: 12px;
