@@ -42,7 +42,10 @@
         width: 85vw;
         height: auto;
     }
-
+    h1{
+        @include estilotitulo;
+        color: $blanco;
+    }
     h2 {
         @include estilotitulo;
         color: $blanco;

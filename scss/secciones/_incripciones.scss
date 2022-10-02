@@ -18,6 +18,10 @@
             height: auto;
             margin-top: 10px;
         }
+        h1{
+            @include estilotitulo;
+            color: $blanco;
+        }
         h2{
             @include estilotitulo;
             color: $blanco;

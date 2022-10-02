@@ -54,7 +54,14 @@
 .videot {
     width: 90vw;
     height: auto;
-
+    h1{
+        @include estilotitulo;
+        background-color: $naranja;
+        border-radius: 5px;
+        margin-top: 3px;
+        padding: 3px;
+        
+    }
     h2{
         @include estilotitulo;
         background-color: $naranja;

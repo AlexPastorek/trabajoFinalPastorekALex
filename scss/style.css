@@ -50,6 +50,11 @@
   width: 85vw;
   height: auto;
 }
+.videoinscripcion h1 {
+  font-size: 12px;
+  padding-top: 10px;
+  color: white;
+}
 .videoinscripcion h2 {
   font-size: 12px;
   padding-top: 10px;
@@ -234,6 +239,11 @@
   height: auto;
   margin-top: 10px;
 }
+.inscr .inscripcionest h1 {
+  font-size: 12px;
+  padding-top: 10px;
+  color: white;
+}
 .inscr .inscripcionest h2 {
   font-size: 12px;
   padding-top: 10px;
@@ -308,6 +318,14 @@
 .videot {
   width: 90vw;
   height: auto;
+}
+.videot h1 {
+  font-size: 12px;
+  padding-top: 10px;
+  background-color: #fb6445;
+  border-radius: 5px;
+  margin-top: 3px;
+  padding: 3px;
 }
 .videot h2 {
   font-size: 12px;
@@ -435,6 +453,9 @@
     width: 85vw;
     height: 60vh;
   }
+  .videoinscripcion h1 {
+    font-size: 18px;
+  }
   .videoinscripcion h2 {
     font-size: 18px;
   }
@@ -514,6 +535,9 @@
     width: 50vw;
     height: auto;
   }
+  .inscr .inscripcionest h1 {
+    font-size: 18px;
+  }
   .inscr .inscripcionest h2 {
     font-size: 18px;
   }
@@ -560,6 +584,9 @@
   .video4:hover iframe {
     width: 101%;
     height: 44vh;
+  }
+  .videot h1 {
+    font-size: 18px;
   }
   .videot h2 {
     font-size: 18px;
@@ -613,6 +640,9 @@
   }
   .videoinscripcion iframe {
     height: 80vh;
+  }
+  .videoinscripcion h1 {
+    font-size: 22px;
   }
   .videoinscripcion h2 {
     font-size: 22px;
@@ -701,6 +731,9 @@
     height: auto;
     padding-bottom: 10px;
   }
+  .inscr .inscripcionest h1 {
+    font-size: 22px;
+  }
   .inscr .inscripcionest h2 {
     font-size: 22px;
   }
@@ -762,6 +795,9 @@
     width: 45vw;
     height: auto;
     padding: 10px;
+  }
+  .videot h1 {
+    font-size: 22px;
   }
   .videot h2 {
     font-size: 22px;
