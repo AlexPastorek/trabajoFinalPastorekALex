@@ -598,25 +598,31 @@
     width: 80px;
   }
   .menu a {
-    font-size: 18px;
+    font-size: 15px;
   }
   .slide h5 {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: sans-serif;
   }
   .slide .botonc button {
-    font-size: 24px;
+    font-size: 22px;
+    font-family: sans-serif;
+  }
+  .slide .botonc button:hover {
+    background-color: #fb6445;
   }
   .videoinscripcion iframe {
     height: 80vh;
   }
   .videoinscripcion h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .videoinscripcion p {
-    font-size: 20px;
+    font-size: 15px;
+    padding: 40px;
   }
   .videoinscripcion button {
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 10px;
   }
   .musichelp {
@@ -628,10 +634,10 @@
     margin-top: 10px;
   }
   .musichelp .textomh h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .musichelp .textomh p {
-    font-size: 20px;
+    font-size: 15px;
   }
   .musichelp img {
     width: 22vw;
@@ -641,41 +647,44 @@
     padding-bottom: 10px;
   }
   .pagoElectronico h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .pagoElectronico button {
     font-size: 20px;
     padding: 1px 8px 1px 8px;
   }
+  .pagoElectronico button:hover {
+    background-color: #fb6445;
+  }
   .pagoElectronico img {
-    width: 70px;
+    width: 50px;
   }
   .footer {
     padding: 10px;
   }
   .footer p {
-    font-size: 20px;
+    font-size: 15px;
   }
   .footer img {
-    width: 50px;
+    width: 45px;
   }
   .plan_estudio .plan .tabla p {
-    font-size: 20px;
+    font-size: 15px;
   }
   .plan_estudio .plan .tabla_fila .tabla {
-    font-size: 20px;
+    font-size: 15px;
   }
   .plan_estudio .plan .tabla_fila .fila {
-    font-size: 20px;
+    font-size: 15px;
   }
   .plan_estudio .teens .tabla p {
-    font-size: 20px;
+    font-size: 15px;
   }
   .plan_estudio .teens .tabla_fila .tabla {
-    font-size: 20px;
+    font-size: 15px;
   }
   .plan_estudio .teens .tabla_fila .fila {
-    font-size: 20px;
+    font-size: 15px;
   }
   .videoi iframe {
     width: 90vw;
@@ -693,10 +702,10 @@
     padding-bottom: 10px;
   }
   .inscr .inscripcionest h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .inscr .inscripcionest p {
-    font-size: 20px;
+    font-size: 15px;
   }
   .inscr .inscripcionest button {
     font-size: 18px;
@@ -755,10 +764,10 @@
     padding: 10px;
   }
   .videot h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .titulof h1 {
-    font-size: 24px;
+    font-size: 22px;
     margin: 20px;
   }
   .titulof iframe {
@@ -766,7 +775,7 @@
     height: 80vh;
   }
   .titulof h2 {
-    font-size: 24px;
+    font-size: 22px;
     margin: auto;
     width: 70vw;
     margin-top: 10px;
@@ -777,7 +786,7 @@
     margin-bottom: 10px;
   }
   .formulario input {
-    font-size: 20px;
+    font-size: 15px;
     width: 50vw;
   }
   .formulario input:hover {
@@ -794,10 +803,10 @@
     width: 52vw;
   }
   .formulario h5 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .formulario select {
-    font-size: 20px;
+    font-size: 15px;
     padding: 3px 5px 3px 5px;
   }
   .formulario .botonese input {
@@ -807,7 +816,7 @@
     padding: 5px;
   }
   .formulario .selecModalidad label {
-    font-size: 20px;
+    font-size: 15px;
     padding: 0px;
   }
   .formulario .selecModalidad input {
