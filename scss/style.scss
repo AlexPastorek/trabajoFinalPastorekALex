@@ -318,7 +318,7 @@
 
 
     .videot {
-
+        
 
         h2 {
             font-size: 18px;
@@ -386,7 +386,7 @@
         }
 
         a {
-            font-size: 20px;
+            font-size: 18px;
         }
     }
 
@@ -431,6 +431,7 @@
     .musichelp {
         margin: 0px;
         max-width: 100vw;
+        
 
         .textomh {
             padding: 0px;
@@ -448,6 +449,7 @@
         img {
             width: 22vw;
             height: auto;
+            
 
 
         }
@@ -564,6 +566,7 @@
             img {
                 width: 30vw;
                 height: auto;
+                padding-bottom: 10px;
 
             }
 
@@ -582,8 +585,7 @@
                 height: 60px;
                 margin-top: 8px;
             }
-           
-
+          
 
            
             .botoness {
@@ -591,8 +593,20 @@
                 justify-content: space-between
             }
         }
+        
     }
+    .pagoElectronico{
+        .pagari{
+            font-size: 18px;
+                width: 200px;
+                height: 60px;
+                margin-top: 8px;
+           }
+           .pagari:hover{
+            background-color: rgb(30, 111, 233);
+           }
 
+    }
     //tutoriales//
 
     .grid-container {
@@ -693,11 +707,19 @@
             font-size: 20px;
             width: 50vw;
         }
+        input:hover{
+            background-color: rgb(233, 177, 157);
+            width: 52vw;
+        }
 
         .texto {
             width: 50vw;
             height: 18vh;
             font-size: 20px;
+        }
+        .texto:hover{
+            background-color: rgb(233, 177, 157);
+            width: 52vw;
         }
 
         h5 {

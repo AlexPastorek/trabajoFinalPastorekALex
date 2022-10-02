@@ -598,7 +598,7 @@
     width: 80px;
   }
   .menu a {
-    font-size: 20px;
+    font-size: 18px;
   }
   .slide h5 {
     font-size: 50px;
@@ -690,6 +690,7 @@
   .inscr .inscripcionest img {
     width: 30vw;
     height: auto;
+    padding-bottom: 10px;
   }
   .inscr .inscripcionest h2 {
     font-size: 24px;
@@ -705,6 +706,15 @@
   }
   .inscr .inscripcionest .botoness {
     justify-content: space-between;
+  }
+  .pagoElectronico .pagari {
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    margin-top: 8px;
+  }
+  .pagoElectronico .pagari:hover {
+    background-color: rgb(30, 111, 233);
   }
   .grid-container {
     grid-template-columns: 50vw 50vw;
@@ -770,10 +780,18 @@
     font-size: 20px;
     width: 50vw;
   }
+  .formulario input:hover {
+    background-color: rgb(233, 177, 157);
+    width: 52vw;
+  }
   .formulario .texto {
     width: 50vw;
     height: 18vh;
     font-size: 20px;
+  }
+  .formulario .texto:hover {
+    background-color: rgb(233, 177, 157);
+    width: 52vw;
   }
   .formulario h5 {
     font-size: 24px;
